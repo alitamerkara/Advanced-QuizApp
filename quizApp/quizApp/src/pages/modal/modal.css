@@ -1,0 +1,34 @@
+.modal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#611ae7, #651eea)
+}
+.lower{
+    width: 900px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.modal-button{
+    padding: 15px 100px;
+    margin-top: 20px;
+    background-color: #611ae7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.modal-title{
+    color: #611ae7;
+    font-size: 3rem;
+    font-weight: bold;
+}
